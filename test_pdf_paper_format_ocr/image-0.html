@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-lt-installed="true"><head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script>
+    const text ="\\title{\n"+
+"Towards a Robust Solution for the Supermarket Shelf Audit Problem\n"+
+"}\n"+
+"\\author{\n"+
+"Emmanuel F. Morán \\({ }^{\\circledR}\\), Boris X. Vintimilla \\({ }^{\\circledR}\\) and Miguel A. Realpe \\({ }^{\\circledR}\\) \\\\ ESPOL Polytechnic University, Escuela Superior Politecnica del Litoral, ESPOL, CIDIS, \\\\ Campus Gustavo Galindo Km. 30.5 Via Perimetral, P.O. Box 09-01-5863, Guayaquil, Ecuador\n"+
+"}\n"+
+"Keywords: Retail, Supermarket, Shelves Auditing, Deep Learning, Supermarket Dataset.\n"+
+"Abstract: \\(\\quad\\) Retail supermarket is an industrial sector with repetitive tasks performed using visual analysis by the store's operators. Tasks such as checking the status of the shelves can contain multiple sequential sub-tasks, each of which needs to be performed correctly. In recent years, there has been some intents to create a solution for the tasks mentioned without been complete solution for retails. In this article, a first realistic approach is proposed to solve the supermarket shelf audit problem. For this, a workflow is presented to deliver compliance level with respect to the expected store's planogram.\n"+
+"\\section*{1 INTRODUCTION}\n"+
+"In recent years, AI has begun to be implemented in a wide number of fields, including medicine (Chua et al., 2021), agriculture (Zhang et al., 2020), finance (Patil et al., 2022), among others. We address a topic that to date and to the best our knowledge, has not been fully analyzed in the public literature: Retail Supermarket Shelves (Budwee et al., 2020).\n"+
+"The new strategy can be defined as the process of comparing the current state of shelves against the expected state according to a planogram (a visual model for distributing supermarket products on their respective shelves). To make this comparison, human operators must carry out visual checks following the protocol of the store in order to validate the status of the shelves. As result of these visual processes, a percentage of compliance between the actual shelves and the planogram is calculated. Finally, by averaging these values of all the shelves in the sales area, a store compliance percentage can be obtained.\n"+
+"In this article, a new proposal to solve the supermarket field audit problem by defining an acquisition method to predict dataset and a workflow to process if will be discussed.\n"+
+"\\footnotetext{\n"+
+"a https://orcid.org/0000-0001-6915-7370\n"+
+"b https://orcid.org/0000-0001-8904-0209\n"+
+"c https://orcid.org/0000-0001-8711-5596\n"+
+"}\n"+
+"\\section*{2 SUPERMARKET ISSUES}\n"+
+"Many problems in retail supermarkets have been identified and reported in the literature (Pettigrew et al., 2005) (Li and Wang, 1970) (Jedlickova, 2016). This section will focus on the issues that involve product placement in the shelves, since these problems are related to the fact that product positioning is done by humans, inevitably leading to some errors.\n"+
+"\\subsection*{2.1 Outdated Price Tags}\n"+
+"This problem refers to price tags that are outdated (printed or digital) or are in poor condition (torn, stained; poorly printed, etc.). Price tags are one of the most important objects on the shelves, since they allow to know what product is being displayed, its description, weight or size and price. If price tags are out of date, it is possible to be able to be the product or to know the real price of the product. An outdated price on the price tag can have two negative repercussions: If the actual price is lower than what is displayed (for example, a product that should have a special offer), it is probably not attractive to customers, and therefore sales may be lost. On the other hand, if the real price is higher than the one shown, the customer may feel cheated when checking out. This last one could have legal repercussion as it can be consider a consumer scam. An option for this not to scale is to sell the product at the seen price (losing money).\n"+
+"A conventional solution could be digital/electronic price tags (Cochoy and Soujus, 1912)\n"+
+"\\footnotetext{\n"+
+"Mornán, E., Vivienilla, B. and Reisler, M.\n"+
+"Towards a Robust Solution for the Supermarket Shelf Audit Problem.\n"+
+"DOI: 10.5292/000011747000020417\n"+
+"DOI: 10.5292/00001174000020417\n"+
+"}\n"+
+"912-919\n"+
+"ISBN: 978-089-758-634-7; ISBN: 2184-4921\n"+
+"Copyright (c) 2003 by SCUT</img>PRESS - Science and Technology Publications, Ltd. Under CCI Series (CC BY-NC-ND 4.0.4)\n" 
+  </script>
+  <style>
+    #content {
+      max-width: 800px;
+      margin: auto;
+    }
+  </style>
+  <script>
+    let script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathpix-markdown-it@1.3.6/es5/bundle.js";
+    document.head.append(script);
+
+    script.onload = function() {
+      const isLoaded = window.loadMathJax();
+      if (isLoaded) {
+        console.log('Styles loaded!')
+      }
+
+      const el = window.document.getElementById('content-text');
+      if (el) {
+        const options = {
+          htmlTags: true
+        };
+        const html = window.render(text, options);
+        el.outerHTML = html;
+      }
+    };
+  </script>
+</head>
+<body>
+  <div id="content"><div id="content-text"></div></div>
+</body>
+</html>

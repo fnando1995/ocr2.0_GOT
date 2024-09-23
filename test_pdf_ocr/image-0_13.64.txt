@@ -1,0 +1,15 @@
+\title{
+(All names and details provided in this sample are fictitious. Some fields have been deliberately left blank.)
+}
+\section*{MEDICAL REPORT}
+\section*{SECTION 1: PATIENT'S PARTICULARS}
+Full name of patient: Mr Tan Ah Kow
+\section*{NRIC/FIN/Passport no. of patient: S1111111X}
+Age of patient: 55 years old
+\section*{SECTION 2: DOCTOR'S PARTICULARS}
+Full name of doctor: Tan Ah Moi
+\section*{NRIC/FIN/Passport no. of doctor: S2222222Z}
+MCR no. of doctor: 333333
+Hospital / Clinic name and address: 1 Blackacre Hospital, Singapore 01010101
+Doctor's qualifications and experience in this area of work:
+[To set out details]

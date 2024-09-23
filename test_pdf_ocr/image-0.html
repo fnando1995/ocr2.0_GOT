@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-lt-installed="true"><head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script>
+    const text ="\\title{\n"+
+"(All names and details provided in this sample are fictitious. Some fields have been deliberately left blank.)\n"+
+"}\n"+
+"\\section*{MEDICAL REPORT}\n"+
+"\\section*{SECTION 1: PATIENT'S PARTICULARS}\n"+
+"Full name of patient: Mr Tan Ah Kow\n"+
+"\\section*{NRIC/FIN/Passport no. of patient: S1111111X}\n"+
+"Age of patient: 55 years old\n"+
+"\\section*{SECTION 2: DOCTOR'S PARTICULARS}\n"+
+"Full name of doctor: Tan Ah Moi\n"+
+"\\section*{NRIC/FIN/Passport no. of doctor: S2222222Z}\n"+
+"MCR no. of doctor: 333333\n"+
+"Hospital / Clinic name and address: 1 Blackacre Hospital, Singapore 01010101\n"+
+"Doctor's qualifications and experience in this area of work:\n"+
+"[To set out details]\n" 
+  </script>
+  <style>
+    #content {
+      max-width: 800px;
+      margin: auto;
+    }
+  </style>
+  <script>
+    let script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathpix-markdown-it@1.3.6/es5/bundle.js";
+    document.head.append(script);
+
+    script.onload = function() {
+      const isLoaded = window.loadMathJax();
+      if (isLoaded) {
+        console.log('Styles loaded!')
+      }
+
+      const el = window.document.getElementById('content-text');
+      if (el) {
+        const options = {
+          htmlTags: true
+        };
+        const html = window.render(text, options);
+        el.outerHTML = html;
+      }
+    };
+  </script>
+</head>
+<body>
+  <div id="content"><div id="content-text"></div></div>
+</body>
+</html>

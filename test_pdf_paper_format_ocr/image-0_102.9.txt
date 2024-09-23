@@ -1,0 +1,31 @@
+\title{
+Towards a Robust Solution for the Supermarket Shelf Audit Problem
+}
+\author{
+Emmanuel F. Morán \({ }^{\circledR}\), Boris X. Vintimilla \({ }^{\circledR}\) and Miguel A. Realpe \({ }^{\circledR}\) \\ ESPOL Polytechnic University, Escuela Superior Politecnica del Litoral, ESPOL, CIDIS, \\ Campus Gustavo Galindo Km. 30.5 Via Perimetral, P.O. Box 09-01-5863, Guayaquil, Ecuador
+}
+Keywords: Retail, Supermarket, Shelves Auditing, Deep Learning, Supermarket Dataset.
+Abstract: \(\quad\) Retail supermarket is an industrial sector with repetitive tasks performed using visual analysis by the store's operators. Tasks such as checking the status of the shelves can contain multiple sequential sub-tasks, each of which needs to be performed correctly. In recent years, there has been some intents to create a solution for the tasks mentioned without been complete solution for retails. In this article, a first realistic approach is proposed to solve the supermarket shelf audit problem. For this, a workflow is presented to deliver compliance level with respect to the expected store's planogram.
+\section*{1 INTRODUCTION}
+In recent years, AI has begun to be implemented in a wide number of fields, including medicine (Chua et al., 2021), agriculture (Zhang et al., 2020), finance (Patil et al., 2022), among others. We address a topic that to date and to the best our knowledge, has not been fully analyzed in the public literature: Retail Supermarket Shelves (Budwee et al., 2020).
+The new strategy can be defined as the process of comparing the current state of shelves against the expected state according to a planogram (a visual model for distributing supermarket products on their respective shelves). To make this comparison, human operators must carry out visual checks following the protocol of the store in order to validate the status of the shelves. As result of these visual processes, a percentage of compliance between the actual shelves and the planogram is calculated. Finally, by averaging these values of all the shelves in the sales area, a store compliance percentage can be obtained.
+In this article, a new proposal to solve the supermarket field audit problem by defining an acquisition method to predict dataset and a workflow to process if will be discussed.
+\footnotetext{
+a https://orcid.org/0000-0001-6915-7370
+b https://orcid.org/0000-0001-8904-0209
+c https://orcid.org/0000-0001-8711-5596
+}
+\section*{2 SUPERMARKET ISSUES}
+Many problems in retail supermarkets have been identified and reported in the literature (Pettigrew et al., 2005) (Li and Wang, 1970) (Jedlickova, 2016). This section will focus on the issues that involve product placement in the shelves, since these problems are related to the fact that product positioning is done by humans, inevitably leading to some errors.
+\subsection*{2.1 Outdated Price Tags}
+This problem refers to price tags that are outdated (printed or digital) or are in poor condition (torn, stained; poorly printed, etc.). Price tags are one of the most important objects on the shelves, since they allow to know what product is being displayed, its description, weight or size and price. If price tags are out of date, it is possible to be able to be the product or to know the real price of the product. An outdated price on the price tag can have two negative repercussions: If the actual price is lower than what is displayed (for example, a product that should have a special offer), it is probably not attractive to customers, and therefore sales may be lost. On the other hand, if the real price is higher than the one shown, the customer may feel cheated when checking out. This last one could have legal repercussion as it can be consider a consumer scam. An option for this not to scale is to sell the product at the seen price (losing money).
+A conventional solution could be digital/electronic price tags (Cochoy and Soujus, 1912)
+\footnotetext{
+Mornán, E., Vivienilla, B. and Reisler, M.
+Towards a Robust Solution for the Supermarket Shelf Audit Problem.
+DOI: 10.5292/000011747000020417
+DOI: 10.5292/00001174000020417
+}
+912-919
+ISBN: 978-089-758-634-7; ISBN: 2184-4921
+Copyright (c) 2003 by SCUT</img>PRESS - Science and Technology Publications, Ltd. Under CCI Series (CC BY-NC-ND 4.0.4)
